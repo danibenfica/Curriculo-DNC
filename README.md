@@ -1,4 +1,9 @@
+![curriculo](https://github.com/danibenfica/Curriculo-DNC/assets/103818625/6d0cbb9d-d996-4980-ab05-00ff4e966260)
+
+
 # Currículo DNC
+
+[Link do projeto online aqui!](https://curriculo-dnc.vercel.app/)
 
 ## Descrição
 
