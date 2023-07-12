@@ -1,55 +1,66 @@
-#rectangles {
-    background-color: #ff9dff;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: monospace
-}
+   #rectangles {
+      background-color: #ff9dff;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-family: monospace
+   }
 
-#titles {
-    background-color: #ffd2ff;
-    width: 500px;
-    border-radius: 30px;
-    text-align: center;
-    margin: 0 auto;
-}
+   #titles {
+      background-color: #ffd2ff;
+      width: 500px;
+      border-radius: 30px;
+      text-align: center;
+      margin: 0 auto;
+   }
 
-.fa-solid {
-   color: #ec7ec2;
-}
+   .fa-solid {
+      color: #ec7ec2;
+   }
 
-#list {
-    list-style-type: none;
-    margin-left: 6px;
- }
+   #list {
+      list-style-type: none;
+      margin-left: 6px;
+   }
 
- #box {
-    display: grid;
-    grid-template-columns: 30% auto;
-    padding: 20px;
-    grid-column-gap: 20px;
- }
+   #box {
+      display: grid;
+      grid-template-columns: 30% auto;
+      padding: 20px;
+      grid-column-gap: 20px;
+   }
 
- #left, #info {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
- }
+   #left, #info {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+   }
 
-.block h3{
-    font-family: 'Paytone One', sans-serif;
- }
+   .block h3{
+      font-family: 'Paytone One', sans-serif;
+   }
 
-.block {
-    display: grid;
-    font-family: 'Fira Sans Condensed', sans-serif;
-    border: 1px solid #ec7ec2;
-    border-radius: 20px;
-    grid-template-columns: 30% auto;
-    padding: 20px;
-    margin-top: 10px;
+   .block {
+      display: grid;
+      font-family: 'Fira Sans Condensed', sans-serif;
+      border: 1px solid #ec7ec2;
+      border-radius: 20px;
+      grid-template-columns: 30% auto;
+      padding: 20px;
+      margin-top: 10px;
 
- }
+   }
 
-
-
- 
+   @media only screen and (min-width: 320px) and (max-width: 480px) {
+      #titles {
+         width: 90%;
+      }
+      
+      #box {
+         grid-template-columns: 1fr;
+         grid-column-gap: 0;
+      }
+      
+      .block {
+         grid-template-columns: 1fr;
+      }
+   }
